@@ -63,6 +63,7 @@ app.use("/api/v1/chat", chatRoute);
 app.use("/api/v1/admin", adminRoute);
 
 app.get("/", (req, res) => {
+  console.log("hey there it's working fine");
   res.send("Hello World");
 });
 
